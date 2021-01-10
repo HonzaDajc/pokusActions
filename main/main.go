@@ -13,7 +13,7 @@ func Hello(name string) (string, error) {
 	if name == "" {
 		return name, errors.New("Name is empty value")
 	}
-	return "Hi  " + name, nil
+	return "Hi " + name, nil
 }
 
 func main() {
